@@ -69,7 +69,7 @@ const HomePage = () => {
           </h1>
           <p className="text-xl sm:text-3xl md:text-4xl font-bold animate-slideIn text-amber-50">
             शिक्षा, संस्कार, नवाचार <br />
-            <strong className="text-amber-500 text-5xl">19,20,21 <strong className="text-amber-600">March</strong> </strong>
+            <strong className="text-amber-500 text-5xl">19-21 <strong className="text-amber-600">March</strong> </strong>
           </p>
         </div>
 
