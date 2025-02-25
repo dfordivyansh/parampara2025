@@ -4,17 +4,21 @@ import HomePage from "./components/HomePage";
 import TechnicalEvents from './components/TechnicalEvents';
 import CulturalEvents from './components/CulturalEvents';
 import SportsEvents from './components/SportsEvents';
-import ContactUs from './components/ContactPage';
+import ContactPage from './components/ContactPage';
+import AboutPage from './components/AboutPage';
+import UpdatesPage from './components/UpdatesPage';
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/updates" element={<UpdatesPage />} />
         <Route path="/technical" element={<TechnicalEvents />} />
         <Route path="/cultural" element={<CulturalEvents />} />
         <Route path="/sports" element={<SportsEvents />} />
-        <Route path="/contact" element={<ContactUs/>} />
 
       </Routes>
     </Router>
