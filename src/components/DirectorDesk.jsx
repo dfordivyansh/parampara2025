@@ -119,7 +119,7 @@ export default function DirectorsDesk() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1.5 }}>
           <img
-            src=" ./assets/Dr-Manoj-Mishra_-HOD_MBA.jpg"
+            src="assets/Dr-Manoj-Mishra_-HOD_MBA.jpg"
             alt="Convenor"
             className="rounded-lg shadow-lg w-64 md:w-80"
           />
@@ -179,7 +179,7 @@ export default function DirectorsDesk() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1.5 }}>
           <img
-            src=" ./assets/Ms.-Shalini-Singh-_-HOD_-Computer-Application.jpeg"
+            src="assets/Ms.-Shalini-Singh-_-HOD_-Computer-Application.jpeg"
             alt="Organiser"
             className="rounded-lg shadow-lg w-64 md:w-80"
           />

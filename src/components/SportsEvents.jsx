@@ -6,14 +6,14 @@ import SportsEventRules from "./SportsEventRules";
 const sportsEvents = [
   {
     name: "Touch & Go",
-    image: "src/assets/kho kho.jpg",
+    image: "assets/kho kho.jpg",
     description: "Experience the thrill of speed and strategy in Kho-Kho.",
     applyLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSeLBvqeCCbIkG447JSQ1JG1-EHcb15CiP0gH7C8HjLX4k309Q/viewform",
   },
   {
     name: "Hu-Tu-Tu",
-    image: "src/assets/kabaddi.jpg",
+    image: "assets/kabaddi.jpg",
     description:
       "Unleash your strength and agility in the fast-paced game of Kabaddi.",
     applyLink:
@@ -21,14 +21,14 @@ const sportsEvents = [
   },
   {
     name: "Ping-Pong",
-    image: "src/assets/table tenis.jpg",
+    image: "assets/table tenis.jpg",
     description: "Showcase your reflexes in an intense Table Tennis match.",
     applyLink:
       "https://docs.google.com/forms/d/e/1FAIpQLScXWT286cqVuGkU4yluw5kzbi1UD_b6U6fSWpII5BUdRXl2OA/viewform",
   },
   {
     name: "Court Ball",
-    image: "src/assets/basketball.jpg",
+    image: "assets/basketball.jpg",
     description:
       "Dribble, shoot, and score in this exciting Basketball competition.",
     applyLink:
@@ -36,7 +36,7 @@ const sportsEvents = [
   },
   {
     name: "Netball",
-    image: "src/assets/volleyball.jpg",
+    image: "assets/volleyball.jpg",
     description:
       "Smash your way to victory in this high-energy Volleyball game.",
     applyLink:
@@ -44,7 +44,7 @@ const sportsEvents = [
   },
   {
     name: "Feather Ball",
-    image: "src/assets/badminton.jpg",
+    image: "assets/badminton.jpg",
     description:
       "Show your finesse and agility in a thrilling Badminton match.",
     applyLink:
@@ -52,7 +52,7 @@ const sportsEvents = [
   },
   {
     name: "The Game of Kings",
-    image: "src/assets/chess.jpg",
+    image: "assets/chess.jpg",
     description:
       "Test your strategic brilliance in the timeless game of Chess.",
     applyLink:
@@ -60,14 +60,14 @@ const sportsEvents = [
   },
   {
     name: "Horizontal Leap",
-    image: "src/assets/long-jump.jpg",
+    image: "assets/long-jump.jpg",
     description: "Defy gravity and push your limits in Long Jump.",
     applyLink:
       "https://docs.google.com/forms/d/e/1FAIpQLScYmUFV699S6MlG6g3GZ8kNjmjVVZnnzcKjPg_b2fzt8Z4p3A/viewform",
   },
   {
     name: "Vertical Leap",
-    image: "src/assets/high-jump.jpg",
+    image: "assets/high-jump.jpg",
     description:
       "Reach new heights and showcase your jumping skills in High Jump.",
     applyLink:
@@ -75,7 +75,7 @@ const sportsEvents = [
   },
   {
     name: "Disc Hurl",
-    image: "src/assets/discus-throw.jpg",
+    image: "assets/discus-throw.jpg",
     description:
       "Display your strength and technique in the Discus Throw event.",
     applyLink:
@@ -83,28 +83,28 @@ const sportsEvents = [
   },
   {
     name: "Power Throw",
-    image: "src/assets/shotput.jpg",
+    image: "assets/shotput.jpg",
     description: "Show your power and precision in the Shotput competition.",
     applyLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfe0zb8JLH6F8aCKd2icxi1WIfD42_YHQ0HUrSyOZjmPVr2Fg/viewform",
   },
   {
     name: "Explosive Run",
-    image: "src/assets/100m-race.jpg",
+    image: "assets/100m-race.jpg",
     description: "Race against time in the electrifying 100m sprint.",
     applyLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfdwh4Zn_9JRKQ-uuIG7zn0PU4g4_GxB9ROhY__A9srCdXa2g/viewform",
   },
   {
     name: "Finger Billiards",
-    image: "src/assets/carrom.jpg",
+    image: "assets/carrom.jpg",
     description: "Strike and pocket your way to victory in Carrom.",
     applyLink:
       "https://docs.google.com/forms/d/e/1FAIpQLScVzm03iCndDBb6Mi2TGTP7hYEvnOP1ICC2BtcZ9HLtYExnRw/viewform",
   },
   {
     name: "Footy",
-    image: "src/assets/football.jpg",
+    image: "assets/football.jpg",
     description:
       "Show your skills and teamwork in an exhilarating Football match.",
     applyLink:
