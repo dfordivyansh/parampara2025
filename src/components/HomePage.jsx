@@ -60,7 +60,7 @@ const HomePage = () => {
               className="h-24 sm:h-32 md:h-40 rounded-2xl"
             />
             <img
-              src={'/assets/logo.png'}
+              src={'/assets/parampara.png'}
               alt="Right Logo"
               className="h-16 sm:h-20 md:h-30"
             />
