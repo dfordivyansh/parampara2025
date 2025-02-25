@@ -48,7 +48,7 @@ const HomePage = () => {
       <Navbar />
       <div className="relative min-h-screen text-black">
         <div
-          className="absolute top-0 w-full h-full bg-cover bg-center mt-15"
+          className="absolute top-0 w-full h-full bg-cover bg-center mt-3"
           style={{ backgroundImage: `url(${"/assets/background.webp"})` }}></div>
 
         <div className="relative z-10 pt-24 text-center text-white">

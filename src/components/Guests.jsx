@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 
-const guests = ["/assets/VIP.jpg", "/assets/SalmanAli.jpg", "/assets/Zuby.jpg", "/assets/Akash.jpg", "/assets/Akash.jpg", "/assets/ABK.jpg"];
+const guests = ["/assets/VIP.jpg", "/assets/SalmanAli.jpg", "/assets/Zuby.jpg", "/assets/Vanni.jpg", "/assets/Akash.jpg", "/assets/ABK.jpg"];
 
 const GuestList = () => {
   return (
