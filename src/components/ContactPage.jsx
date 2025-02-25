@@ -7,32 +7,32 @@ import Footer from "./Footer";
 const headsData = {
   core: {
     name: "Deepak Pandey",
-    image: "src/assets/deepak.jpg", // Replace with actual image path
+    image: "assets/deepak.jpg", // Replace with actual image path
     whatsapp:
       "https://wa.me/+917307013029/?text=I%20am%20excited%20to%20participate%20in%20technical,%20cultural%20and%20sports%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8", // Replace with actual link
   },
   technical: [
     {
       name: "Divyansh Srivastava",
-      image: "src/assets/divyansh.jpg",
+      image: "assets/divyansh.jpg",
       whatsapp:
         "https://wa.me/+918299877578/?text=I%20am%20excited%20to%20participate%20in%20a%20technical%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
     {
       name: "Divyanshu Sharma",
-      image: "src/assets/divyanshu.jpg",
+      image: "assets/divyanshu.jpg",
       whatsapp:
         "https://wa.me/+919580716700/?text=I%20am%20excited%20to%20participate%20in%20a%20technical%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
     {
       name: "Saumya Srivastava",
-      image: "src/assets/saumya.jpg",
+      image: "assets/saumya.jpg",
       whatsapp:
         "https://wa.me/+917905892294/?text=I%20am%20excited%20to%20participate%20in%20a%20technical%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
     {
       name: "Poonam Nishad",
-      image: "src/assets/poonam.jpg",
+      image: "assets/poonam.jpg",
       whatsapp:
         "https://wa.me/+919569496940/?text=I%20am%20excited%20to%20participate%20in%20a%20technical%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
@@ -40,25 +40,25 @@ const headsData = {
   cultural: [
     {
       name: "Tanmesh Srivastav",
-      image: "src/assets/tanmesh.jpg",
+      image: "assets/tanmesh.jpg",
       whatsapp:
         "https://wa.me/+917237878337/?text=I%20am%20excited%20to%20participate%20in%20a%20cultural%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
     {
       name: "Aayush Dubey",
-      image: "src/assets/aayush.jpg",
+      image: "assets/aayush.jpg",
       whatsapp:
         "https://wa.me/+919336564581/?text=I%20am%20excited%20to%20participate%20in%20a%20cultural%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
     {
       name: "Kashish Srivastava",
-      image: "src/assets/kashish.jpg",
+      image: "assets/kashish.jpg",
       whatsapp:
         "https://wa.me/+918564011626/?text=I%20am%20excited%20to%20participate%20in%20a%20cultural%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
     {
       name: "Jaya Pandey",
-      image: "src/assets/jaya.jpg",
+      image: "assets/jaya.jpg",
       whatsapp:
         "https://wa.me/+919695019183/?text=I%20am%20excited%20to%20participate%20in%20a%20cultural%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
@@ -66,26 +66,26 @@ const headsData = {
   sports: [
     {
       name: "Divyansh Kasaudhan",
-      image: "src/assets/divyanshk.jpg",
+      image: "assets/divyanshk.jpg",
       whatsapp:
         "https://wa.me/+917706050406/?text=I%20am%20excited%20to%20participate%20in%20a%20sports%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
     {
       name: "Sujeet Yadav",
-      image: "src/assets/sujit.jpg",
+      image: "assets/sujit.jpg",
       whatsapp:
         "https://wa.me/+917348128074/?text=I%20am%20excited%20to%20participate%20in%20a%20sports%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
     {
       name: "Adarsh Ram Tripathi",
-      image: "src/assets/adarsh.jpg",
+      image: "assets/adarsh.jpg",
       whatsapp:
         "https://wa.me/+919026037475/?text=I%20am%20excited%20to%20participate%20in%20a%20sports%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
 
     {
       name: "Sanya Shukla",
-      image: "src/assets/sanya.jpg",
+      image: "assets/sanya.jpg",
       whatsapp:
         "https://wa.me/+919794993596/?text=I%20am%20excited%20to%20participate%20in%20a%20sports%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8",
     },
