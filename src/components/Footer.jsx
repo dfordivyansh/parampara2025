@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-6 text-center">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold">Parampara 2025</h2>
-        <p className="text-gray-400">Celebrating Tradition and Innovation</p>
+        <p className="text-gray-400">Celebrating Tradition and Innovation <br /> शिक्षा, संस्कार, नवाचार </p>
         <nav className="mt-4">
           <ul className="flex justify-center space-x-6">
             <li><a href="/about" className="hover:text-yellow-400">About</a></li>
