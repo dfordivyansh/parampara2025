@@ -129,7 +129,7 @@ const SportsEvents = () => {
       <div className="bg-gradient-to-b from-black to-gray-900 min-h-screen flex flex-col items-center py-10 px-5 relative overflow-hidden mt-5">
         <div className="flex flex-col items-center">
           <img
-            src="src/assets/parampara.png"
+            src="public/assets/parampara.png"
             alt="Sports Events Logo"
             className="w-32 h-32 mb-4"
           />
