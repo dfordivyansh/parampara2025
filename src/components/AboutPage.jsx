@@ -13,7 +13,7 @@ const AboutPage = () => {
       <Navbar />
       <div
         className="min-h-screen bg-gradient-to-r from-blue-950 to-blue-900 flex items-center justify-center p-4 sm:p-6 bg-cover bg-center"
-        style={{ backgroundImage: "url('assets/about.jpeg')" }}
+        style={{ backgroundImage: "url('../src/assets/about.jpeg')" }}
       >
         <motion.div
           initial={{ opacity: 0, y: 50 }}

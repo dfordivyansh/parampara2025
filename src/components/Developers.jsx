@@ -13,7 +13,7 @@ const Developers = () => {
           {/* Developer 1 - Roshini Nishad */}
           <div className="bg-gray-800 text-white p-4 sm:p-6 rounded-lg shadow-lg text-center transform hover:scale-105 transition duration-500">
             <img
-              src="assets/rose.jpeg"
+              src="../src/assets/rose.jpeg"
               alt="Developer 2"
               className="w-24 sm:w-32 h-24 sm:h-32 mx-auto rounded-full mb-4 border-4 border-indigo-500"
             />
@@ -36,7 +36,7 @@ const Developers = () => {
           {/* Developer 2 - Divyansh Srivastava */}
           <div className="bg-gray-800 text-white p-4 sm:p-6 rounded-lg shadow-lg text-center transform hover:scale-105 transition duration-500">
             <img
-              src="assets/div.jpeg"
+              src="../src/assets/div.jpeg"
               alt="Developer 1"
               className="w-24 sm:w-32 h-24 sm:h-32 mx-auto rounded-full mb-4 border-4 border-purple-500"
             />

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react"; // Mobile menu icons
-import logo from "../assets/logo.png";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
           {/* Logo and Title (Left Corner) */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img src={logo} alt="Parampara 2025" height={30} className="h-10 w-auto mr-3" />
+              <img src={"/assets/logo.png"} alt="Parampara 2025" height={30} className="h-10 w-auto mr-3" />
               <span className="text-2xl font-bold">Parampara 2025</span>
             </Link>
           </div>

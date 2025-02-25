@@ -6,7 +6,7 @@ import CulturalEventRules from "./CulturalEventRules";
 const events = [
   {
     name: "KOLAM",
-    image: "assets/kolam.jpg",
+    image: "src/assets/kolam.jpg",
     description:
       "Showcase your creativity with intricate and colorful rangoli designs. Express cultural beauty through vibrant patterns.",
     applyLink:
@@ -14,7 +14,7 @@ const events = [
   },
   {
     name: "KALATHILAKAM",
-    image: "assets/kalathilakam.jpg",
+    image: "src/assets/kalathilakam.jpg",
     description:
       "Craft stunning flower pot arrangements and display your artistic skills in floral decor.",
     applyLink:
@@ -22,7 +22,7 @@ const events = [
   },
   {
     name: "SUR SAMAGAM",
-    image: "assets/sur samagam.jpg",
+    image: "src/assets/sur samagam.jpg",
     description:
       "Sing your heart out in this melodious competition. Show off your vocal talent and win hearts.",
     applyLink:
@@ -30,7 +30,7 @@ const events = [
   },
   {
     name: "NRITYA KALA",
-    image: "assets/nritya-kala.jpg",
+    image: "src/assets/nritya-kala.jpg",
     description:
       "Express yourself through graceful moves and powerful performances in this dance contest.",
     applyLink:
@@ -38,7 +38,7 @@ const events = [
   },
   {
     name: "EVOCATION",
-    image: "assets/evocation.jpg",
+    image: "src/assets/evocation.jpg",
     description:
       "Unleash your imagination by creating thought-provoking posters. Express through art.",
     applyLink:
@@ -46,7 +46,7 @@ const events = [
   },
   {
     name: "GIG WAR",
-    image: "assets/gig war.jpg",
+    image: "src/assets/gig war.jpg",
     description:
       "Battle of the bands! Showcase your musical talent and rock the stage with electrifying performances.",
     applyLink:
@@ -54,7 +54,7 @@ const events = [
   },
   {
     name: "NATYA MANCHAN",
-    image: "assets/natya manchan.jpg",
+    image: "src/assets/natya manchan.jpg",
     description:
       "Bring stories to life with powerful acting and compelling storytelling in this skit competition.",
     applyLink:
@@ -62,7 +62,7 @@ const events = [
   },
   {
     name: "JOKE-A-PALOOZA",
-    image: "assets/joke a palooza.jpg",
+    image: "src/assets/joke a palooza.jpg",
     description:
       "Get ready for a laughter ride! Show your comedy skills and entertain the audience.",
     applyLink:
@@ -70,7 +70,7 @@ const events = [
   },
   {
     name: "TRASH TO TREASURE",
-    image: "assets/trash to treasure.jpg",
+    image: "src/assets/trash to treasure.jpg",
     description:
       "Transform waste into wonderful creations. Exhibit your creativity in recycling and upcycling.",
     applyLink:
@@ -78,7 +78,7 @@ const events = [
   },
   {
     name: "MENDHIKA DESIGN",
-    image: "/assets/mendhika design.avif",
+    image: "src/assets/mendhika design.avif",
     description:
       "Create mesmerizing mehndi designs and showcase your artistic henna skills.",
     applyLink:
@@ -86,7 +86,7 @@ const events = [
   },
   {
     name: "DUMB CHARADES",
-    image: "assets/dumb charades.jpg",
+    image: "src/assets/dumb charades.jpg",
     description:
       "Guess the words through expressive gestures in this exciting game of Dumb Charades.",
     applyLink:
@@ -94,7 +94,7 @@ const events = [
   },
   {
     name: "MUKTAKK",
-    image: "assets/muktak.avif",
+    image: "src/assets/muktak.avif",
     description:
       "Express your emotions through beautifully crafted poetry in this poetic battle.",
     applyLink:
@@ -102,7 +102,7 @@ const events = [
   },
   {
     name: "ARTISTIC MAKEUP",
-    image: "assets/artistic makeup.jpg",
+    image: "src/assets/artistic makeup.jpg",
     description:
       "Turn faces into stunning canvases with artistic makeup and face painting designs.",
     applyLink:
@@ -110,7 +110,7 @@ const events = [
   },
   {
     name: "NAKHSHILP",
-    image: "assets/nakhshilp.jpg",
+    image: "src/assets/nakhshilp.jpg",
     description:
       "Showcase your nail art creativity with unique and intricate designs.",
     applyLink:
@@ -118,7 +118,7 @@ const events = [
   },
   {
     name: "TULSI RAMAYANA PADDANT",
-    image: "assets/tulsi ramayana paddant.jpg",
+    image: "src/assets/tulsi ramayana paddant.jpg",
     description:
       "Engage in a unique Ramcharit Manas Antakshari competition that celebrates our heritage.",
     applyLink:
@@ -126,7 +126,7 @@ const events = [
   },
   {
     name: "TRADITIONAL TRIVIA",
-    image: "assets/traditional trivia.jpg",
+    image: "src/assets/traditional trivia.jpg",
     description:
       "Test your knowledge of cultural heritage in this exciting heritage quiz.",
     applyLink:
@@ -134,7 +134,7 @@ const events = [
   },
   {
     name: "SHANKHNAAD PRATIYOGITA",
-    image: "/assets/shankhnaad pratiyogita.jpg",
+    image: "src/assets/shankhnaad pratiyogita.jpg",
     description:
       "Showcase your skill in blowing the conch in this unique traditional competition.",
     applyLink:
@@ -142,7 +142,7 @@ const events = [
   },
   {
     name: "VO-PHY APING",
-    image: "assets/vo-phy aping.jpg",
+    image: "src/assets/vo-phy aping.jpg",
     description:
       "Mimic your favorite personalities and entertain the audience with spot-on impressions.",
     applyLink:
@@ -150,7 +150,7 @@ const events = [
   },
   {
     name: "ZIGGURAT",
-    image: "assets/ziggurat.jpg",
+    image: "src/assets/ziggurat.jpg",
     description:
       "Construct creative and stunning pyramids in this engaging architectural challenge.",
     applyLink:
@@ -158,7 +158,7 @@ const events = [
   },
   {
     name: "CINESTAA",
-    image: "assets/cinestaa.jpg",
+    image: "src/assets/cinestaa.jpg",
     description:
       "Showcase your love for cinema in this exciting film-based event. A paradise for movie buffs!",
     applyLink:
@@ -179,7 +179,7 @@ const CulturalEvents = () => {
       <div className="bg-gradient-to-b from-black to-gray-900 min-h-screen flex flex-col items-center py-10 px-5 relative overflow-hidden mt-5">
         <div className="flex flex-col items-center">
           <img
-            src=" ./assets/parampara.png"
+            src="/public/assets/parampara.png"
             alt="Cultural Events Logo"
             className="w-32 h-32 mb-4"
           />

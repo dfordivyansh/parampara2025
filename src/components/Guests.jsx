@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
-import VIP from "../assets/VIP.jpg";
-import SalmanAli from "../assets/SalmanAli.jpg";
-import Zuby from "../assets/Zuby.jpg";
-import Vanni from "../assets/Vanni.jpg";
-import Akash from "../assets/Akash.jpg";
-import ABK from "../assets/ABK.jpg";
+// import VIP from "../../src/assets/VIP.jpg";
+// import SalmanAli from "../../src/assets/SalmanAli.jpg";
+// import Zuby from "../../src/assets/Zuby.jpg";
+// import Vanni from "../../src/assets/Vanni.jpg";
+// import Akash from "../../src/assets/Akash.jpg";
+// import ABK from "../../src/assets/ABK.jpg";
 
-const guests = [VIP, SalmanAli, Zuby, Vanni, Akash, ABK];
+const guests = ["/assets/VIP.jpg", "/assets/SalmanAli.jpg", "/assets/Zuby.jpg", "/assets/Akash.jpg", "/assets/Akash.jpg", "/assets/ABK.jpg"];
 
 const GuestList = () => {
   return (

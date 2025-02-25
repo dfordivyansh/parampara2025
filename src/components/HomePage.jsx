@@ -6,10 +6,11 @@ import {
   Link,
   useLocation,
 } from "react-router-dom";
-import logo from "../assets/itmlogo.png";
-import additionalLogo from " ./assets/parampara.png";
-import anniversaryLogo from "../assets/param25.jpg";
-import backgroundImage from "../assets/background.webp";
+// import logo from "/src/assets/itmlogo.png";
+// import additionalLogo from "/src/assets/logo.png";
+
+// import anniversaryLogo from "../assets/param25.jpg";
+// import backgroundImage from "../assets/background.webp";
 import Featured from "./Featured";
 import ContactUs from "./ContactPage";
 import Navbar from "./Navbar";
@@ -48,18 +49,18 @@ const HomePage = () => {
       <div className="relative min-h-screen text-black">
         <div
           className="absolute top-0 w-full h-full bg-cover bg-center mt-15"
-          style={{ backgroundImage: `url(${backgroundImage})` }}></div>
+          style={{ backgroundImage: `url(${"/assets/background.webp"})` }}></div>
 
         <div className="relative z-10 pt-24 text-center text-white">
           <div className="flex flex-wrap justify-center items-center gap-4 ">
-            <img src={logo} alt="Left Logo" className="h-16 sm:h-20 md:h-30" />
+            <img src={"/assets/itmlogo.png"} alt="Left Logo" className="h-16 sm:h-20 md:h-30" />
             <img
-              src={anniversaryLogo}
+              src={"/assets/param25.jpg"}
               alt="25 Year Anniversary"
               className="h-24 sm:h-32 md:h-40 rounded-2xl"
             />
             <img
-              src={additionalLogo}
+              src={'/assets/logo.png'}
               alt="Right Logo"
               className="h-16 sm:h-20 md:h-30"
             />
