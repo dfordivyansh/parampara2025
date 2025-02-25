@@ -7,7 +7,7 @@ import TechnicalEventRules from "./TechnicalEventRules";
 const events = [
   {
     name: "Bug Hunters",
-    image: "../src/assets/bug hunters.jpg",
+    image: "/assets/bug hunters.jpg",
     description:
       "Test your debugging skills by identifying errors in code. \
       Fix bugs and optimize the performance. Prove you're the ultimate bug hunter.",
@@ -16,7 +16,7 @@ const events = [
   },
   {
     name: "Code Titans",
-    image: "../src/assets/code titans.jpg",
+    image: "/assets/code titans.jpg",
     description:
       "Compete in a fast-paced coding contest. Show your programming expertise. \
       Solve real-world challenges in record time and become a coding titan.",
@@ -25,7 +25,7 @@ const events = [
   },
   {
     name: "Web Stack",
-    image: "../src/assets/web stack.jpg",
+    image: "/assets/web stack.jpg",
     description:
       "Design stunning websites and web apps. Use modern technologies to build. \
       Showcase your skills in front-end and back-end web development.",
@@ -34,7 +34,7 @@ const events = [
   },
   {
     name: "Mind Wars",
-    image: "../src/assets/mind wars.jpg",
+    image: "/assets/mind wars.jpg",
     description:
       "Test your mental prowess with complex puzzles. Think critically and solve. \
       Challenge your mind against other sharp contestants.",
@@ -43,7 +43,7 @@ const events = [
   },
   {
     name: "Speed Hackers",
-    image: "../src/assets/speed hackers.jpg",
+    image: "/assets/speed hackers.jpg",
     description:
       "Solve coding challenges under tight time limits. Speed and accuracy are key. \
       Prove your quick thinking and coding agility.",
@@ -52,7 +52,7 @@ const events = [
   },
   {
     name: "Robo Rumble",
-    image: "../src/assets/robo rumble.jpg",
+    image: "/assets/robo rumble.jpg",
     description:
       "Build robots to face off in a battle of wits and strength. Control and program. \
       Compete to see which robot reigns supreme.",
@@ -61,7 +61,7 @@ const events = [
   },
   {
     name: "Setu Shrishti",
-    image: "../src/assets/setu shrishti.jpg",
+    image: "/assets/setu shrishti.jpg",
     description:
       "Create innovative solutions with limited resources. Build structures that impress. \
       Let your creativity shine in this engineering challenge.",
@@ -70,7 +70,7 @@ const events = [
   },
   {
     name: "Discord of Minds",
-    image: "../src/assets/discord of minds.jpg",
+    image: "/assets/discord of minds.jpg",
     description:
       "Engage in intellectual debates and discussions. Form your arguments and defend them. \
       Compete with others in the ultimate battle of words and wits.",
@@ -79,7 +79,7 @@ const events = [
   },
   {
     name: "Junk Yard",
-    image: "../src/assets/junk yard.jpg",
+    image: "/assets/junk yard.jpg",
     description:
       "Repurpose scrap and junk into useful gadgets or art. Show off your creativity. \
       Make something functional or artistic from discarded materials.",
@@ -88,7 +88,7 @@ const events = [
   },
   {
     name: "Rubik’s Ruckus",
-    image: "../src/assets/rubick ruckus.jpg",
+    image: "/assets/rubick ruckus.jpg",
     description:
       "Solve the Rubik's cube and other mind-bending puzzles. Race against the clock. \
       Challenge yourself and test your puzzle-solving skills.",
@@ -97,7 +97,7 @@ const events = [
   },
   {
     name: "Inceptive Arena",
-    image: "../src/assets/inceptive arena.jpg",
+    image: "/assets/inceptive arena.jpg",
     description:
       "Face futuristic challenges that require innovative thinking. Solve problems creatively. \
       Showcase your forward-thinking and strategic skills.",
@@ -106,7 +106,7 @@ const events = [
   },
   {
     name: "Design Flux",
-    image: "../src/assets/design flux.jpg",
+    image: "/assets/design flux.jpg",
     description:
       "Design sleek and user-friendly UI/UX interfaces. Create stunning prototypes. \
       Bring your design vision to life with style and functionality.",
@@ -115,7 +115,7 @@ const events = [
   },
   {
     name: "BGMI",
-    image: "../src/assets/bgmi.jpg",
+    image: "/assets/bgmi.jpg",
     description:
       "Compete in a battle royale for survival. Show your strategy and shooting skills. \
       Be the last one standing and claim victory in BGMI.",
@@ -124,7 +124,7 @@ const events = [
   },
   {
     name: "Riddle Masters",
-    image: "../src/assets/riddle masters.jpg",
+    image: "/assets/riddle masters.jpg",
     description:
       "Solve a series of tricky riddles and puzzles. Put your logic and problem-solving skills to the test. \
       Can you be the Riddle Master?",
@@ -133,16 +133,16 @@ const events = [
   },
   {
     name: "Medi Quest",
-    image: "../src/assets/medi quest.jpg",
+    image: "/assets/medi quest.jpg",
     description:
       "Embark on an interactive journey exploring medicine and healthcare. Solve healthcare-related challenges. \
       Test your knowledge in the field of medicine.",
     applyLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfureGPh3koZGP5GVCxjjMWGuIHXLUx1Rx-DaZj_p3Mjq7mnQ/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSegojJrGC9kJj6Kpml9MdYaWhT0j2n9cKCm13C61DXGw7lxug/viewform",
   },
   {
     name: "Lens Master",
-    image: "../src/assets/lens master.jpg",
+    image: "/assets/lens master.jpg",
     description:
       "Capture moments and master the art of photography. Show your creativity through the lens. \
       Take stunning photos and compete with others.",
@@ -151,7 +151,7 @@ const events = [
   },
   {
     name: "Futuristic Fiction Writing",
-    image: "../src/assets/futuristic fiction writing.jpg",
+    image: "/assets/futuristic fiction writing.jpg",
     description:
       "Write captivating futuristic short stories. Challenge your creativity and imagination. \
       Explore the world of sci-fi and fantasy in this writing competition.",
@@ -160,7 +160,7 @@ const events = [
   },
   {
     name: "Circuit Design",
-    image: "../src/assets/circuit design.jpg",
+    image: "/assets/circuit design.jpg",
     description:
       "Design and build creative electrical circuits. Challenge your understanding of electronics. \
       Test your skills in this exciting engineering event.",
@@ -169,7 +169,7 @@ const events = [
   },
   {
     name: "Science Exhibition (Senior)",
-    image: "../src/assets/science exhibition senior.jpg",
+    image: "/assets/science exhibition senior.jpg",
     description:
       "Present your scientific projects and innovations. Show your creativity in problem-solving. \
       Compete in the senior science exhibition and showcase your knowledge.",
@@ -178,7 +178,7 @@ const events = [
   },
   {
     name: "Science Exhibition (Junior)",
-    image: "../src/assets/science exhibition junior.jpg",
+    image: "/assets/science exhibition junior.jpg",
     description:
       "Participate in the junior science exhibition. Create innovative projects for the younger audience. \
       Display your curiosity and skills in the world of science.",
@@ -187,7 +187,7 @@ const events = [
   },
   {
     name: "Free Fire",
-    image: "../src/assets/free fire.jpg",
+    image: "/assets/free fire.jpg",
     description:
       "Battle in the world of Free Fire. Showcase your combat and strategy skills. \
       Compete to be the last survivor in this thrilling game.",
@@ -196,7 +196,7 @@ const events = [
   },
   {
     name: "Tech Tambola",
-    image: "../src/assets/tech tambola.jpg",
+    image: "/assets/tech tambola.jpg",
     description:
       "Play the traditional tambola game with a tech twist. Enjoy a fun-filled and engaging event. \
       Win prizes while testing your luck in this exciting event.",
@@ -228,7 +228,7 @@ const TechnicalEvents = () => {
         {/* Logo and Title */}
         <div className="flex flex-col items-center">
           <img
-            src=" ./../src/assets/parampara.png"
+            src="/assets/parampara.png"
             alt="Technical Events Logo"
             className="w-32 h-32 mb-4"
           />
