@@ -7,7 +7,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import logo from "../assets/itmlogo.png";
-import additionalLogo from "/public/assets/parampara.png";
+import additionalLogo from " ./assets/parampara.png";
 import anniversaryLogo from "../assets/param25.jpg";
 import backgroundImage from "../assets/background.webp";
 import Featured from "./Featured";

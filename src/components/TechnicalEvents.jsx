@@ -228,7 +228,7 @@ const TechnicalEvents = () => {
         {/* Logo and Title */}
         <div className="flex flex-col items-center">
           <img
-            src="/public/assets/parampara.png"
+            src=" ./assets/parampara.png"
             alt="Technical Events Logo"
             className="w-32 h-32 mb-4"
           />
