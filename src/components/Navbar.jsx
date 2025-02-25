@@ -8,14 +8,14 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="bg-gradient-to-r from-black to-gray-900 text-white fixed top-0 w-full shadow-md z-50">
+    <nav className="bg-gradient-to-r from-black to-gray-900 h-[80px] text-white fixed top-0 w-full shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           
           {/* Logo and Title (Left Corner) */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img src={logo} alt="Parampara 2025" className="h-10 w-auto mr-3" />
+              <img src={logo} alt="Parampara 2025" height={30} className="h-10 w-auto mr-3" />
               <span className="text-2xl font-bold">Parampara 2025</span>
             </Link>
           </div>

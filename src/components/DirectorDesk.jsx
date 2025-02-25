@@ -61,7 +61,7 @@ export default function DirectorsDesk() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1.5 }}>
           <img
-            src="/public/assets/Director.webp"
+            src='assets/Director.webp'
             alt="Director"
             className="rounded-lg shadow-lg w-64 md:w-80"
           />
