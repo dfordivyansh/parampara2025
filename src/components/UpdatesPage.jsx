@@ -8,32 +8,32 @@ const categories = [
   {
     name: "Technical",
     link: "https://drive.google.com/drive/folders/1C8CJg4taPrlHjRDo44nS9-soZYjFDHcv?usp=drive_link",
-    image: "src/assets/background.jpg",
+    image: "../src/assets/background.jpg",
   },
   {
     name: "Cultural",
     link: "https://drive.google.com/drive/folders/18SoJf__lYfHS0DS8Xol-0yIzTwtAsv_c?usp=drive_link",
-    image: "src/assets/background.jpg",
+    image: "../src/assets/background.jpg",
   },
   {
     name: "Sports",
     link: "https://drive.google.com/drive/folders/1nPL4rUBJKEEgyBSrvqeo5hDsEkVdxNS6?usp=drive_link",
-    image: "src/assets/background.jpg",
+    image: "../src/assets/background.jpg",
   },
   {
     name: "Convocation",
     link: "https://drive.google.com/drive/folders/18o9mK1pKMBgryUYAsUuC6K7PdRuY2__d?usp=drive_link",
-    image: "src/assets/background.jpg",
+    image: "../src/assets/background.jpg",
   },
   {
     name: "Prize Distribution",
     link: "https://drive.google.com/drive/folders/1XDtx29l7hLkDdwEgo_DYcs4bUdN30RrO?usp=drive_link",
-    image: "src/assets/background.jpg",
+    image: "../src/assets/background.jpg",
   },
   {
     name: "Others",
     link: "https://drive.google.com/drive/folders/1XiPk0olj8lTMI8MfqJjV-WtI5eeMSSwZ?usp=drive_link",
-    image: "src/assets/background.jpg",
+    image: "../src/assets/background.jpg",
   },
 ];
 

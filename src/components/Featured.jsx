@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const featuredEvents = [
        {
         name: "Bug Hunters",
-        image: "src/assets/bug hunters.jpg",
+        image: "/assets/bug hunters.jpg",
         description: 
           "Test your debugging skills by identifying errors in code. \
           Fix bugs and optimize the performance. Prove you're the ultimate bug hunter.",
@@ -11,7 +11,7 @@ const featuredEvents = [
       },
       {
         name: "Code Titans",
-        image: "src/assets/code titans.jpg",
+        image: "/assets/code titans.jpg",
         description: 
           "Compete in a fast-paced coding contest. Show your programming expertise. \
           Solve real-world challenges in record time and become a coding titan.",
@@ -19,7 +19,7 @@ const featuredEvents = [
       },
       {
         name: "Web Stack",
-        image: "src/assets/web stack.jpg",
+        image: "/assets/web stack.jpg",
         description: 
           "Design stunning websites and web apps. Use modern technologies to build. \
           Showcase your skills in front-end and back-end web development.",
@@ -27,7 +27,7 @@ const featuredEvents = [
       },
       {
         name: "Mind Wars",
-        image: "src/assets/mind wars.jpg",
+        image: "/assets/mind wars.jpg",
         description: 
           "Test your mental prowess with complex puzzles. Think critically and solve. \
           Challenge your mind against other sharp contestants.",
@@ -35,54 +35,54 @@ const featuredEvents = [
       },
       {
         name: "KOLAM",
-        image: "src/assets/kolam.jpg",
+        image: "/assets/kolam.jpg",
         description:
           "Showcase your creativity with intricate and colorful rangoli designs. Express cultural beauty through vibrant patterns.",
         applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSflsBEPa3r8b0D1MIjKZbUIviLubLyRVuO0uXPH1BGqWM3_zQ/viewform",
       },
       {
         name: "KALATHILAKAM",
-        image: "src/assets/kalathilakam.jpg",
+        image: "/assets/kalathilakam.jpg",
         description:
           "Craft stunning flower pot arrangements and display your artistic skills in floral decor.",
         applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSdvNWqyUp9tE9DX_iakb2vI9kbrqAT4xNujXeuRCF81hgtIAw/viewform",
       },
       {
         name: "SUR SAMAGAM",
-        image: "src/assets/sur samagam.jpg",
+        image: "/assets/sur samagam.jpg",
         description:
           "Sing your heart out in this melodious competition. Show off your vocal talent and win hearts.",
         applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSe9Ge5dkkv4ajt9GAXg5NC1v379_IBzFI9wWXeeta3G2now8Q/viewform",
       },
       {
         name: "NRITYA KALA",
-        image: "src/assets/nritya-kala.jpg",
+        image: "/assets/nritya-kala.jpg",
         description:
           "Express yourself through graceful moves and powerful performances in this dance contest.",
         applyLink: "https://docs.google.com/forms/d/e/1FAIpQLScvW5PWlf08NabG1r-RApnz0bYGP6fDAsM6F24Yq5yc0mzOrQ/viewform",
       },
       {
         name: "Touch & Go",
-        image: "src/assets/kho kho.jpg",
+        image: "/assets/kho kho.jpg",
         description: "Experience the thrill of speed and strategy in Kho-Kho.",
         applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeLBvqeCCbIkG447JSQ1JG1-EHcb15CiP0gH7C8HjLX4k309Q/viewform",
       },
       {
         name: "Hu-Tu-Tu",
-        image: "src/assets/kabaddi.jpg",
+        image: "/assets/kabaddi.jpg",
         description:
           "Unleash your strength and agility in the fast-paced game of Kabaddi.",
         applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeaGZpNd6pgePjt2Z-GU7PtmqSszyWmxnw6IpvZ4IozOLHusQ/viewform",
       },
       {
         name: "Ping-Pong",
-        image: "src/assets/table tenis.jpg",
+        image: "/assets/table tenis.jpg",
         description: "Showcase your reflexes in an intense Table Tennis match.",
         applyLink: "https://docs.google.com/forms/d/e/1FAIpQLScXWT286cqVuGkU4yluw5kzbi1UD_b6U6fSWpII5BUdRXl2OA/viewform",
       },
       {
         name: "Court Ball",
-        image: "src/assets/basketball.jpg",
+        image: "/assets/basketball.jpg",
         description:
           "Dribble, shoot, and score in this exciting Basketball competition.",
         applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSccSl6L-sMMt5p1jpDcU8tDq29POGRSbSha39_baTvMJJGQsA/viewform",
