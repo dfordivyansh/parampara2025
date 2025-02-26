@@ -18,7 +18,7 @@ const events = [
     description:
       "Craft stunning flower pot arrangements and display your artistic skills in floral decor.",
     applyLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdvNWqyUp9tE9DX_iakb2vI9kbrqAT4xNujXeuRCF81hgtIAw/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSdF1pQaQynaRmtTCtqfJ_51m7G4L_ropyMaVPxlnSUnFW2vvQ/viewform",
   },
   {
     name: "SUR SAMAGAM",
@@ -26,7 +26,7 @@ const events = [
     description:
       "Sing your heart out in this melodious competition. Show off your vocal talent and win hearts.",
     applyLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSe9Ge5dkkv4ajt9GAXg5NC1v379_IBzFI9wWXeeta3G2now8Q/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSe9_D3ioq1hvULSIA4UAd0R1s30tR8AlNFlwTqmoAYV0M4nfQ/viewform",
   },
   {
     name: "NRITYA KALA",
@@ -66,7 +66,7 @@ const events = [
     description:
       "Get ready for a laughter ride! Show your comedy skills and entertain the audience.",
     applyLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdQGT_7SqFfAoiymHQjRlboOlhoH06yuDKO7VbbYadJEuR1jw/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSf5tsXMxunf13moMSIm1kMk--b0LJjSqZ3-4Sn_SFxiB2U4vw/viewform",
   },
   {
     name: "TRASH TO TREASURE",
@@ -138,7 +138,7 @@ const events = [
     description:
       "Showcase your skill in blowing the conch in this unique traditional competition.",
     applyLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSe5Cyi9XEICalKWQNWktpF43cQwWF0mfGQWfhgI4SBLnq6Vgg/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSep8n7hGofSBYTL1I8Y3AFO9KnHl4WEUYe36CO5wUgYru0XzA/viewform",
   },
   {
     name: "VO-PHY APING",
@@ -146,7 +146,7 @@ const events = [
     description:
       "Mimic your favorite personalities and entertain the audience with spot-on impressions.",
     applyLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdeFiaGwS8RSlBTHmMnJNUW669-uduD5R68q9lo2FvrVaBNUw/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLScI4WQWdNFBfD-1ZDxyuQ8ADt0D9rLYkojHlrXd-Mb3AEDMng/viewform",
   },
   {
     name: "ZIGGURAT",
@@ -154,7 +154,7 @@ const events = [
     description:
       "Construct creative and stunning pyramids in this engaging architectural challenge.",
     applyLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfowNC5eafLBlOe3r9IOLpm-AdLxqQWvlDw0dN1D8B6s4c9IA/viewform",
+      "https://docs.google.com/forms/d/e/1FAIpQLSdVvpzLxg4WQjRxS1FyjzrlpBJennIYhEseE0Dmiaiym6gOcg/viewform",
   },
   {
     name: "CINESTAA",
