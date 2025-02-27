@@ -134,7 +134,7 @@ export default function DirectorsDesk() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}>
-            Organisor's Desk
+            Organiser's Desk
           </motion.h2>
           <motion.div
             className="w-16 h-1 bg-yellow-500 mb-4"
