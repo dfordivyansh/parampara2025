@@ -6,11 +6,6 @@ import {
   Link,
   useLocation,
 } from "react-router-dom";
-// import logo from "/src/assets/itmlogo.png";
-// import additionalLogo from "/src/assets/logo.png";
-
-// import anniversaryLogo from "../assets/param25.jpg";
-// import backgroundImage from "../assets/background.webp";
 import Featured from "./Featured";
 import ContactUs from "./ContactPage";
 import Navbar from "./Navbar";

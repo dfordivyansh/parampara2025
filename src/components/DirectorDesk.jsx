@@ -126,65 +126,7 @@ export default function DirectorsDesk() {
         </motion.div>
       </div>
 
-      {/* Organiser's Desk */}
-      <div className="flex flex-col md:flex-row items-center">
-        <div className="md:w-2/3 text-gray-800">
-          <motion.h2
-            className="text-3xl sm:text-4xl font-bold mb-4"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}>
-            Organiser's Desk
-          </motion.h2>
-          <motion.div
-            className="w-16 h-1 bg-yellow-500 mb-4"
-            initial={{ scaleX: 0 }}
-            animate={{ scaleX: 1 }}
-            transition={{ duration: 1 }}
-          />
-          <motion.p
-            className="text-lg leading-relaxed"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.5 }}>
-            As we celebrate the 25th anniversary of <strong className="text-amber-600">Parampara 2025</strong> , we extend
-            our heartfelt gratitude to all who have been a part of this
-            incredible journey.{" "}
-          </motion.p>
-          {showMoreConvenor && (
-            <motion.p
-              className="text-lg leading-relaxed mt-4"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 0.5 }}>
-              Over the years, Parampara has stood as a symbol of tradition,
-              culture, and excellence, bringing together talent and creativity
-              in a vibrant celebration. Here's to <strong className="text-amber-600">25 years of tradition,
-              passion, and togetherness!</strong>
-            </motion.p>
-          )}
-          <button
-            className="mt-4 text-blue-600 font-medium focus:outline-none"
-            onClick={() => setShowMoreConvenor(!showMoreConvenor)}>
-            {showMoreConvenor ? "Read Less" : "Read More"}
-          </button>
-          <div className="mt-4 flex items-center text-gray-800 font-medium">
-            <FaPenFancy className="w-5 h-5 mr-2" />
-            Ms. Shalini Singh
-          </div>
-        </div>
-        <motion.div
-          className="md:w-1/3 mt-8 md:mt-0 flex justify-center"
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay: 1.5 }}>
-          <img
-            src="/assets/Ms.-Shalini-Singh-_-HOD_-Computer-Application.jpeg"
-            alt="Organiser"
-            className="rounded-lg shadow-lg w-64 md:w-80"
-          />
-        </motion.div>
-      </div>
+
     </div>
   );
 }
