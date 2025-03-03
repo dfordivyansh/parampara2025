@@ -6,13 +6,14 @@ import Footer from "./Footer";
 
 const headsData = {
   core: {
-    name: "Deepak Pandey",
+    name: "Deepak Pandey (Organizing Committee Head)",
 
     image: "/assets/deepak.jpg", // Replace with actual image path
 
     whatsapp:
       "https://wa.me/+917307013029/?text=I%20am%20excited%20to%20participate%20in%20technical,%20cultural%20and%20sports%20event%20at%20Parampara%202K25%20and%20would%20love%20to%20know%20more%20details!%20Kindly%20share%20the%20necessary%20information.%20Looking%20forward%20to%20your%20response!%20%F0%9F%98%8A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Best%20regards,%20%5BYour%20Name%5D%20%E2%9C%A8", // Replace with actual link
   },
+  
   technical: [
     {
       name: "Divyansh Srivastava",
@@ -124,7 +125,6 @@ const ContactUs = () => {
       <Navbar />
       <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-6">
         {/* Core Committee Head */}
-        <h1 className="mt-16 text-3xl text-bold">Organizing Committee Head</h1>
         <motion.div
           className="text-center mb-10"
           initial={{ opacity: 0, y: -50 }}
